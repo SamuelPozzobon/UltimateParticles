@@ -21,12 +21,12 @@ class UltimateParticlesCommand extends BaseCommand{
                 switch($args[0]){
                     case "help":
                         if($issuer->hasPermission("ultimateparticles.command.help") !== true && $issuer->hasPermission("ultimateparticles.command") !== true){
-                            $issuer->sendMessage(("&cYou don't have permission for this!"));
+                            $issuer->sendMessage(("§cYou don't have permission for this!"));
                             return true;
                         }
-                        $issuer->sendMessage("&ahowing help page &6(1/1)");
-                        $issuer->sendMessage("&l&b-&f&r/ultip help");
-                        $issuer->sendMessage("&l&b-&f&r/ultip ejector");
+                        $issuer->sendMessage("§ahowing help page §6(1/1)");
+                        $issuer->sendMessage("§l§b-§f§r/ultip help");
+                        $issuer->sendMessage("§l§b-§f§r/ultip ejector");
                         return true;
                         break;
                     case "ejector":
@@ -41,11 +41,11 @@ class UltimateParticlesCommand extends BaseCommand{
                         }
                         switch ($args[1]){
                             case "help":
-                                $issuer->sendMessage("&aShowing help page (1/1)");
-                                $issuer->sendMessage("&b&l-&f&r/ultip ejector help");
-//                                $issuer->sendMessage(("&b&l-&f&r/ultip ejector add <particle(separate with commas)> <name> <amplfier>"));
-//                                $issuer->sendMessage(("&b&l-&f&r/ultip ejector remove <name>"));
-                                $issuer->sendMessage("&b&l-&f&r/ultip ejector list");
+                                $issuer->sendMessage("§aShowing help page (1/1)");
+                                $issuer->sendMessage("§b§l-§f§r/ultip ejector help");
+//                                $issuer->sendMessage(("§b§l-§f§r/ultip ejector add <particle(separate with commas)> <name> <amplfier>"));
+//                                $issuer->sendMessage(("§b§l-§f§r/ultip ejector remove <name>"));
+                                $issuer->sendMessage("§b§l-§f§r/ultip ejector list");
                                 return true;
                                 break;
                             case "add":
@@ -58,7 +58,7 @@ class UltimateParticlesCommand extends BaseCommand{
                                     return true;
                                 }
                                 if($this->plugin->isEjectorExists($args[3]) !== false){
-                                    $issuer->sendMessage(("&cEjector with same name already exists!"));
+                                    $issuer->sendMessage(("§cEjector with same name already exists!"));
                                     return true;
                                 }
                                 $particles = explode(",", $args[2]);
@@ -79,11 +79,11 @@ class UltimateParticlesCommand extends BaseCommand{
                                     return true;
                                 }
                                 if($this->plugin->isEjectorExists($args[2]) !== true){
-                                    $issuer->sendMessage(("&cEjector with that name does not exist!"));
+                                    $issuer->sendMessage(("§cEjector with that name does not exist!"));
                                     return true;
                                 }
                                 if($this->plugin->removeEjector($args[2]) !== false){
-                                    $issuer->sendMessage(("&aYou removed ejector &e".$args[2]." &asuccessfully!"));
+                                    $issuer->sendMessage(("§aYou removed ejector §e".$args[2]." §asuccessfully!"));
                                     return true;
                                 }else{
                                     $issuer->sendMessage("An error occurred during execution of this command!");
@@ -91,7 +91,7 @@ class UltimateParticlesCommand extends BaseCommand{
                                 }
                                 break;
                             case "list":
-                                $issuer->sendMessage(("&aList of particle ejectors: \n".$this->plugin->getAllEjectors()));
+                                $issuer->sendMessage(("§aList of particle ejectors: \n".$this->plugin->getAllEjectors()));
                                 return true;
                                 break;
                             default:
