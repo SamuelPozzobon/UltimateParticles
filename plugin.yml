@@ -1,0 +1,22 @@
+name: UltimateParticles
+main: UltimateParticles\UltimateParticles
+api: 3.0.0
+version: 4.1.0
+load: POSTWORLD
+author: hoyinm14mc, fixed by Archon Klaus
+
+commands:
+  ultimateparticles:
+    usage: /ultimateparticles help
+    permission: ultimateparticles.command
+    description: Main command of UltimateParticles (Non-WalkingParticles stuff)
+    aliases: ["ultip"]
+    
+permissions:
+  ultimateparticles.command:
+    default: op
+    children:
+      ultimateparticles.command.help:
+        default: op
+      ultimateparticles.command.ejector:
+        default: op
