@@ -70,7 +70,7 @@ class UltimateParticles extends PluginBase
         $this->particles = new Particles ($this);
         $this->getScheduler()->scheduleRepeatingTask(new SpiralTask ($this), 3);
         $this->getCommand("ultimateparticles")->setExecutor(new UltimateParticlesCommand($this));
-        $this->getLogger()->info("&aLoaded Successfully!");
+        $this->getLogger()->info("§aLoaded Successfully!");
     }
 
     // For external use
