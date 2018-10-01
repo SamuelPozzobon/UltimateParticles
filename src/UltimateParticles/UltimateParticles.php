@@ -48,7 +48,7 @@ class UltimateParticles extends PluginBase
 
     public function onEnable()
     {
-        $this->getLogger()->info("Loading UltimateParticles");
+        $this->getLogger()->info("Loading UltimateParticles!");
         if (!is_dir($this->getDataFolder())) {
             mkdir($this->getDataFolder());
         }
