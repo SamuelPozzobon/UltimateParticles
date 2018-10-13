@@ -2,7 +2,7 @@
 
 /*
  * This plugin has been continued by Klaus - ArchonTeam
- * Copyright 2018 Klaus, www.italianrealms.xyz
+ * Copyright 2018 ArchonKlaus, www.italianrealms.xyz
  */
 namespace UltimateParticles;
 
