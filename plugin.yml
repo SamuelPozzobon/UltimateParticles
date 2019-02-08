@@ -1,6 +1,7 @@
 name: UltimateParticles
 main: UltimateParticles\UltimateParticles
 api: [3.0.0, 3.6.0]
+website: DISCONTINUED
 version: 4.2.1
 load: POSTWORLD
 author: Klaus
