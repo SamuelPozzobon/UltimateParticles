@@ -1,7 +1,6 @@
 name: UltimateParticles
 main: UltimateParticles\UltimateParticles
-api: [xxx]
-website: DISCONTINUED
+api: [3.0.0, 3.6.2]
 version: 4.2.1
 load: POSTWORLD
 author: Klaus
@@ -10,7 +9,7 @@ commands:
   ultimateparticles:
     usage: /ultimateparticles help
     permission: ultimateparticles.command
-    description: Main command of UltimateParticles (Non-WalkingParticles stuff)
+    description: Main command of UltimateParticles
     aliases: ["ultip"]
     
 permissions:
