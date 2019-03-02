@@ -1,6 +1,6 @@
 name: UltimateParticles
 main: UltimateParticles\UltimateParticles
-api: [3.0.0, 3.6.2]
+api: [3.0.0, 3.6.3]
 version: 4.2.2
 load: POSTWORLD
 author: Klaus
