@@ -1,6 +1,6 @@
 # UltimateParticles.
-An UltimateParticles plugin, fixed by Archon Klaus.
+UltimateParticle is the most advanced particles plugin on pocketmine.
 
-This is the only and the best spawn particles ever (for the newest PocketMine-MP  version). By Klaus.
+Here is a list of particles:
 
 ![Alt text](screenshot.png?raw=true "Title")
