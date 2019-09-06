@@ -14,6 +14,7 @@ use ArchonKlaus\commands\UltimateParticlesCommand;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\level\Position;
+use pocketmine\command\CommandSender;
 
 class UltimateParticles extends PluginBase
 {
