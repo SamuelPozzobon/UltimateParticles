@@ -10,6 +10,7 @@ use pocketmine\command\PluginCommand;
 use pocketmine\plugin\Plugin;
 use pocketmine\command\CommandExecutor;
 use ArchonKlaus\UltimateParticles;
+use pocketmine\command\CommandSender;
 
 abstract class BaseCommand extends PluginCommand implements CommandExecutor{
 
