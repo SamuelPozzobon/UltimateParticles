@@ -1,60 +1,6 @@
 # UltimateParticles.
-UltimateParticle is the most advanced spawn particles plugin on pocketmine.
+An UltimateParticles plugin, fixed by Archon Klaus.
 
-Here is a list of particles:
-
-explode
-
-largeexplode
-
-hugeexplode
-
-bubble
-
-splash
-
-water
-
-critical
-
-spell
-
-dripwater
-
-smoke
-
-instantspell
-
-portal
-
-spore
-
-driplava
-
-entityflame
-
-flame
-
-lava
-
-redstone
-
-snowballpoof
-
-mobspawn
-
-colorful
-
-rain
-
-happyvillager
-
-angryvillager
-
-ink
-
-hearth
-
-slime
+This is the only and the best spawn particles ever (for the newest PocketMine-MP  version). By Klaus.
 
 ![Alt text](screenshot.png?raw=true "Title")
